@@ -1,0 +1,74 @@
+<!-- aboutpage-->
+
+{% include 'pages/index.html' %}
+{% block content %}
+
+
+<section class="about">
+    <h1>ABOUT US</h1>
+    <p style="font-weight: bold">THE SANCTUARY</p>
+    <div class="about-info">
+        <div class="about-img">
+            <img src="../static/images/cats_group.avif">
+            
+        </div>
+        <div>
+<p>
+
+   CatZ Sanctuary was formed in 2023 when a group of animal lovers wanted a shelter for stray cats that were homeless. 
+   We provide shelter for stray, abandoned and unwanted cats in a safe, loving, cage free environment. 
+   There is a no kill policy at CatZ., therefore, any animals that are not adopted will be able to live the rest of their natural lives at the shelter.
+    </p>
+    
+           
+        </div>
+    </div>
+</section>
+
+<section class="team">
+    <h1>More Information</h1>
+    <div class="team-cards">
+        <!-- Cards here -->
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="card-img">
+                <img src="../static/images/mission.jpg" alt="image 1">
+            </div>
+            <div class="card-info">
+                <h2 class="card-name">Mission</h2>
+                <p class="card-role">To rescue stray cats from harsh street en...</p>
+                <!--<p class="card-email">jane@example.com</p>-->
+                <a href=""><button>Read More ...</button></a>
+                
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-img">
+                <img src= "../static/images/vision.jpg" alt="image 2">
+            </div>
+            <div class="card-info">
+                <h2 class="card-name">Vision</h2>
+                <p class="card-role">A safe place for our beloved stray cats... </p>
+                <!--<p class="card-email">Miller@example.com</p>-->
+                <a href=""><button>Read More ...</button></a>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="card-img">
+                <img src= "../static/images/cats.avif" alt="image 3">
+            </div>
+            <div class="card-info">
+                <h2 class="card-name">Our History</h2>
+                <p class="card-role">Through the willpower of the shelter pres...</p>
+            <!--	<p class="card-email">Joe@example.com</p>-->
+            <a href=""><button>Read More ...</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %} 
+{% include 'pages/footer.html' %}
+    

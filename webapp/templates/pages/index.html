@@ -1,0 +1,37 @@
+<!-- index-->
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CatZ</title>
+
+        <!-- Links CSS-->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/navhome.css' %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/contact.css' %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/catlist.css' %}"/>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Links ICON LOGO IMAGE-->
+        <link rel="icon" type="image/x-icon" href="{% static '/images/catz logo.png' %}"/>
+        
+         <!--CONTACT PAGE-->
+        <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+{% include 'pages/navbar.html' %}
+{% block content %}
+{% endblock %}
+
+
+<!-- Sample js syntax-->
+<script src="{% static '/js/script.js' %}"></script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,22 @@
+
+{% block content %}
+<form class="row g-3" id="Login-Form">
+
+  <div class="head">
+  </div>
+  
+  <h3 style="padding:10px; text-align: center;">STUDENT LOGIN</h3>
+
+  <div class="col-md-12">
+    <label for="adminusername" class="form-label">Username</label>
+    <input type="text" class="form-control" name="adminuname" id="adminuname">
+  </div>
+
+  <div class="col-md-12">
+    <label for="adminpassword" class="form-label">Password</label>
+    <input type="password" class="form-control" name="adminpass" id="adminpass">
+  </div>
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Login</button>
+    {% endblock %}   
