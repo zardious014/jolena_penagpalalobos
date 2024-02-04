@@ -1,0 +1,7 @@
+*.pyc
+*~
+_psycache_
+myvenv
+db.sqlite3
+/static
+.DS.Store
